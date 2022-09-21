@@ -23,7 +23,7 @@ try:
 except ImportError:
     from importlib_metadata import version
 
-ver = "1.29.1+j5.2"
+ver = "1.29.1+j5.3"
 
 
 def pack_funcs(fmt):
