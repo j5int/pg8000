@@ -23,7 +23,7 @@ try:
 except ImportError:
     from importlib_metadata import version
 
-ver = version("pg8000")
+ver = "1.29.1+j5.2"
 
 
 def pack_funcs(fmt):
